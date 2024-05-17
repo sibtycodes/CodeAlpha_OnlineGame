@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "nodemon --env-file=.env backend.js",
+    "dev": "node --env-file=.env backend.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^10.11.1",
+    "mongodb": "^6.6.0",
+    "mongoose": "^8.3.3",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}
